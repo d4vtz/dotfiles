@@ -1,0 +1,59 @@
+# Traditional ls compatibility
+classic: false
+
+# Columns shown with `lsd -l`
+blocks:
+  - permission
+  - user
+  - group
+  - size
+  - date
+  - name
+
+# Colors
+color:
+  when: auto
+  theme: default
+
+# Date display
+date: relative
+
+# Symbolic links
+dereference: false
+no-symlink: false
+symlink-arrow: ⇒
+
+# Icons
+icons:
+  when: auto
+  theme: fancy
+  separator: "  "
+
+# File indicators
+indicators: true
+
+# Default layout
+layout: grid
+
+# Recursion
+recursion:
+  enabled: false
+  depth: 3
+
+# Human-readable sizes
+size: short
+
+# Permissions
+permission: rwx
+
+# Sorting
+sorting:
+  column: name
+  reverse: false
+  dir-grouping: first
+
+# Directory totals
+total-size: false
+
+# Terminal hyperlinks
+hyperlink: auto

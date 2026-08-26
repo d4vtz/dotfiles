@@ -12,7 +12,14 @@ name = "concord"
 relative_path = ".config/concord"
 type = "directory"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-26T20:53:28.372920+00:00"
+updated_at = "2026-08-26T21:07:00.304395+00:00"
+
+[[targets]]
+name = "lsd"
+relative_path = ".config/lsd"
+type = "directory"
+created_at = "2026-08-26T21:07:00.296814+00:00"
+updated_at = "2026-08-26T21:07:00.296814+00:00"
 
 [[targets]]
 name = "zsh"
