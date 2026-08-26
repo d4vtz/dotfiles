@@ -53,12 +53,17 @@ fi
 # Completion
 autoload -Uz compinit
 compinit -d "$ZSH_CACHE_DIR/zcompdump"
+zstyle ':completion:*' use-cache true
+zstyle ':completion:*' cache-path "$ZSH_CACHE_DIR/completion"
 
 unsetopt menu_complete
 setopt auto_menu
 
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+zstyle ':completion:*:*:*:*:processes' command \
+    'ps -u "$USER" -o pid,user,comm -w -w'
+
 
 # Key bindings
 bindkey -e
@@ -74,7 +79,7 @@ bindkey '^[[B' down-line-or-beginning-search
 
 # History
 HISTFILE="$ZSH_CACHE_DIR/history"
-HISTSIZE=10000
+HISTSIZE=50000
 SAVEHIST=10000
 
 setopt append_history
@@ -82,9 +87,18 @@ setopt share_history
 setopt hist_ignore_all_dups
 setopt hist_ignore_space
 setopt hist_reduce_blanks
+setopt extended_history
+setopt hist_expire_dups_first
+setopt hist_find_no_dups
+setopt hist_save_no_dups
+setopt hist_verify
 
+# Zoxide
+if (( $+commands[zoxide] )); then
+    eval "$(zoxide init zsh)"
+fi
 
-# exports
+# Exports
 [[ -r "$ZDOTDIR/exports.zsh" ]] &&
     source "$ZDOTDIR/exports.zsh"
 

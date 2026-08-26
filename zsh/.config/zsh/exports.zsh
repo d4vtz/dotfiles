@@ -11,4 +11,11 @@ export LESS='-R --mouse --wheel-lines=3'
 export PYTHONPYCACHEPREFIX="${XDG_CACHE_HOME:-$HOME/.cache}/python"
 
 # Development
-export RIPGREP_CONFIG_PATH="${XDG_CONFIG_HOME:-$HOME/.config}/ripgrep/config"
+typeset -g RIPGREP_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/ripgrep/config"
+
+if [[ -r "$RIPGREP_CONFIG" ]]; then
+    export RIPGREP_CONFIG_PATH="$RIPGREP_CONFIG"
+fi
+
+unset RIPGREP_CONFIG
+
