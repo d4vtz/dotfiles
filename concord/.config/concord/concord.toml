@@ -12,7 +12,7 @@ name = "concord"
 relative_path = ".config/concord"
 type = "directory"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-27T04:38:11.221213+00:00"
+updated_at = "2026-08-27T14:46:20.445250+00:00"
 
 [[targets]]
 name = "chrome"
@@ -27,6 +27,13 @@ relative_path = ".gitconfig"
 type = "file"
 created_at = "2026-08-27T00:41:14.641172+00:00"
 updated_at = "2026-08-27T00:41:14.641172+00:00"
+
+[[targets]]
+name = "konsole"
+relative_path = ".local/share/konsole"
+type = "directory"
+created_at = "2026-08-27T14:46:20.437208+00:00"
+updated_at = "2026-08-27T14:46:20.437208+00:00"
 
 [[targets]]
 name = "kwallet"
