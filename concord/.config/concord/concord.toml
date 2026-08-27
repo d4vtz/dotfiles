@@ -12,7 +12,7 @@ name = "concord"
 relative_path = ".config/concord"
 type = "directory"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-26T23:37:11.024884+00:00"
+updated_at = "2026-08-27T00:41:14.658388+00:00"
 
 [[targets]]
 name = "chrome"
@@ -20,6 +20,13 @@ relative_path = ".config/chrome-flags.conf"
 type = "file"
 created_at = "2026-08-26T21:41:29.830022+00:00"
 updated_at = "2026-08-26T21:41:29.830022+00:00"
+
+[[targets]]
+name = "git"
+relative_path = ".gitconfig"
+type = "file"
+created_at = "2026-08-27T00:41:14.641172+00:00"
+updated_at = "2026-08-27T00:41:14.641172+00:00"
 
 [[targets]]
 name = "kwallet"
