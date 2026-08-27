@@ -30,7 +30,7 @@ icons:
   separator: "  "
 
 # File indicators
-indicators: true
+indicators: false
 
 # Default layout
 layout: grid
