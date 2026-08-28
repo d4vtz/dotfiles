@@ -3,3 +3,9 @@
 *.sqlite3
 __pycache__/
 .DS_Store
+
+# Machine-specific Zsh configuration
+zsh/.config/zsh/local.zsh
+
+# Konsole generated cache
+konsole/.local/share/konsole/*.tbcache
