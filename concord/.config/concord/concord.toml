@@ -13,7 +13,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-28T22:08:39.199706+00:00"
+updated_at = "2026-08-28T22:08:48.253639+00:00"
 
 [[targets]]
 name = "bat"
@@ -147,6 +147,7 @@ updated_at = "2026-08-28T16:17:03.441082+00:00"
 name = "zsh"
 paths = [
     { relative_path = ".config/zsh", type = "directory" },
+    { relative_path = ".zshenv", type = "file" },
 ]
 created_at = "2026-08-26T20:35:20.678517+00:00"
-updated_at = "2026-08-28T18:28:59.055186+00:00"
+updated_at = "2026-08-28T22:08:48.235355+00:00"
