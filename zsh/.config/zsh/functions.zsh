@@ -19,6 +19,26 @@ help() {
         bat --plain --language=help
 }
 
+# Pretty-print a JSON file
+jsonpp() {
+    if (( $# != 1 )); then
+        print "Uso: jsonpp <archivo.json>"
+        return 1
+    fi
+
+    jq '.' -- "$1"
+}
+
+# Pretty-print a YAML file
+yamlpp() {
+    if (( $# != 1 )); then
+        print "Uso: yamlpp <archivo.yaml>"
+        return 1
+    fi
+
+    yq eval --prettyPrint '.' "$1"
+}
+
 # Restart the current Zsh session
 zreload() {
     exec zsh
