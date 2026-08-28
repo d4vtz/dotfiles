@@ -1,0 +1,114 @@
+[[columns]]
+kind = "Pid"
+style = "BrightMagenta|Magenta"
+numeric_search = true
+align = "Right"
+
+[[columns]]
+kind = "User"
+style = "BrightCyan|Cyan"
+nonnumeric_search = true
+
+[[columns]]
+kind = "State"
+style = "ByState"
+
+[[columns]]
+kind = "UsageCpu"
+style = "ByPercentage"
+align = "Right"
+header = "CPU"
+
+[[columns]]
+kind = "UsageMem"
+style = "ByPercentage"
+align = "Right"
+header = "MEM"
+
+[[columns]]
+kind = "VmRss"
+style = "ByUnit"
+align = "Right"
+header = "RSS"
+
+[[columns]]
+kind = "CpuTime"
+style = "BrightYellow|Yellow"
+align = "Right"
+header = "TIME"
+
+# Columns requested from the command line
+[[columns]]
+kind = "MultiSlot"
+style = "ByPercentage"
+align = "Right"
+
+# Process hierarchy
+[[columns]]
+kind = "TreeSlot"
+style = "BrightMagenta|Magenta"
+
+[[columns]]
+kind = "Command"
+style = "BrightWhite|White"
+nonnumeric_search = true
+
+[[columns]]
+kind = "TreeSlot"
+style = "BrightMagenta|Magenta"
+
+[style]
+header = "BrightMagenta|Magenta"
+unit = "BrightCyan|Cyan"
+tree = "BrightMagenta|Magenta"
+
+[style.by_percentage]
+color_000 = "BrightBlue|Blue"
+color_025 = "BrightGreen|Green"
+color_050 = "BrightYellow|Yellow"
+color_075 = "BrightRed|Red"
+color_100 = "BrightMagenta|Magenta"
+
+[style.by_state]
+color_d = "BrightRed|Red"
+color_r = "BrightGreen|Green"
+color_s = "BrightBlue|Blue"
+color_t = "BrightCyan|Cyan"
+color_z = "BrightMagenta|Magenta"
+color_x = "BrightMagenta|Magenta"
+color_k = "BrightYellow|Yellow"
+color_w = "BrightYellow|Yellow"
+color_p = "BrightYellow|Yellow"
+
+[style.by_unit]
+color_k = "BrightBlue|Blue"
+color_m = "BrightGreen|Green"
+color_g = "BrightYellow|Yellow"
+color_t = "BrightRed|Red"
+color_p = "BrightMagenta|Magenta"
+color_x = "BrightCyan|Cyan"
+
+[search]
+numeric_search = "Exact"
+nonnumeric_search = "Partial"
+logic = "And"
+
+[display]
+show_self = false
+show_thread = false
+show_thread_in_tree = true
+cut_to_terminal = true
+cut_to_pager = false
+cut_to_pipe = false
+color_mode = "Auto"
+theme = "Dark"
+
+[sort]
+column = 0
+order = "Ascending"
+
+[pager]
+mode = "Auto"
+detect_width = true
+use_builtin = false
+command = "less -SR"
