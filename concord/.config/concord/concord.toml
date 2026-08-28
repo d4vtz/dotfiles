@@ -12,7 +12,7 @@ name = "concord"
 relative_path = ".config/concord"
 type = "directory"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-28T15:08:38.030666+00:00"
+updated_at = "2026-08-28T15:09:08.600246+00:00"
 
 [[targets]]
 name = "bat"
@@ -62,6 +62,13 @@ relative_path = ".config/environment.d"
 type = "directory"
 created_at = "2026-08-26T23:37:11.017369+00:00"
 updated_at = "2026-08-26T23:37:11.017369+00:00"
+
+[[targets]]
+name = "lazygit"
+relative_path = ".config/lazygit"
+type = "directory"
+created_at = "2026-08-28T15:09:08.581862+00:00"
+updated_at = "2026-08-28T15:09:08.581862+00:00"
 
 [[targets]]
 name = "lsd"
