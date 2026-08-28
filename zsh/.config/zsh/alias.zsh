@@ -11,6 +11,13 @@ else
     alias lla='ls -Alh'
 fi
 
+# Bat
+if (( $+commands[bat] )); then
+    alias b='bat'
+    alias bp='bat --plain --paging=never'
+    alias bcat='bat --paging=never'
+fi
+
 # Directory navigation
 alias ..='cd ..'
 alias ...='cd ../..'
