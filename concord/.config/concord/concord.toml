@@ -1,4 +1,4 @@
-version = 1
+version = 2
 repository_path = "~/.local/share/concord/repository"
 
 [git]
@@ -9,133 +9,152 @@ remote = "origin"
 
 [[targets]]
 name = "concord"
-relative_path = ".config/concord"
-type = "directory"
+paths = [
+    { relative_path = ".config/concord", type = "directory" },
+]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-28T18:28:59.061701+00:00"
+updated_at = "2026-08-28T22:06:46.909304+00:00"
 
 [[targets]]
 name = "bat"
-relative_path = ".config/bat"
-type = "directory"
+paths = [
+    { relative_path = ".config/bat", type = "directory" },
+]
 created_at = "2026-08-28T04:39:40.829102+00:00"
 updated_at = "2026-08-28T04:39:40.829102+00:00"
 
 [[targets]]
 name = "btop"
-relative_path = ".config/btop"
-type = "directory"
+paths = [
+    { relative_path = ".config/btop", type = "directory" },
+]
 created_at = "2026-08-28T16:07:25.895911+00:00"
 updated_at = "2026-08-28T16:07:25.895911+00:00"
 
 [[targets]]
 name = "chrome"
-relative_path = ".config/chrome-flags.conf"
-type = "file"
+paths = [
+    { relative_path = ".config/chrome-flags.conf", type = "file" },
+]
 created_at = "2026-08-26T21:41:29.830022+00:00"
 updated_at = "2026-08-26T21:41:29.830022+00:00"
 
 [[targets]]
 name = "fastfetch"
-relative_path = ".config/fastfetch"
-type = "directory"
+paths = [
+    { relative_path = ".config/fastfetch", type = "directory" },
+]
 created_at = "2026-08-28T16:49:52.255967+00:00"
 updated_at = "2026-08-28T16:51:43.726011+00:00"
 
 [[targets]]
 name = "fd"
-relative_path = ".config/fd"
-type = "directory"
+paths = [
+    { relative_path = ".config/fd", type = "directory" },
+]
 created_at = "2026-08-28T05:15:44.644269+00:00"
 updated_at = "2026-08-28T05:15:44.644269+00:00"
 
 [[targets]]
 name = "git"
-relative_path = ".gitconfig"
-type = "file"
+paths = [
+    { relative_path = ".gitconfig", type = "file" },
+]
 created_at = "2026-08-27T00:41:14.641172+00:00"
 updated_at = "2026-08-28T05:02:12.679585+00:00"
 
 [[targets]]
 name = "kitty"
-relative_path = ".config/kitty"
-type = "directory"
+paths = [
+    { relative_path = ".config/kitty", type = "directory" },
+]
 created_at = "2026-08-27T16:35:53.259888+00:00"
 updated_at = "2026-08-28T17:44:30.622568+00:00"
 
 [[targets]]
 name = "konsole"
-relative_path = ".local/share/konsole"
-type = "directory"
+paths = [
+    { relative_path = ".local/share/konsole", type = "directory" },
+]
 created_at = "2026-08-27T14:46:20.437208+00:00"
 updated_at = "2026-08-27T14:46:20.437208+00:00"
 
 [[targets]]
 name = "kwallet"
-relative_path = ".config/environment.d"
-type = "directory"
+paths = [
+    { relative_path = ".config/environment.d", type = "directory" },
+]
 created_at = "2026-08-26T23:37:11.017369+00:00"
 updated_at = "2026-08-26T23:37:11.017369+00:00"
 
 [[targets]]
 name = "lazygit"
-relative_path = ".config/lazygit"
-type = "directory"
+paths = [
+    { relative_path = ".config/lazygit", type = "directory" },
+]
 created_at = "2026-08-28T15:09:08.581862+00:00"
 updated_at = "2026-08-28T15:09:08.581862+00:00"
 
 [[targets]]
 name = "lsd"
-relative_path = ".config/lsd"
-type = "directory"
+paths = [
+    { relative_path = ".config/lsd", type = "directory" },
+]
 created_at = "2026-08-26T21:07:00.296814+00:00"
 updated_at = "2026-08-27T04:38:11.216334+00:00"
 
 [[targets]]
 name = "paru"
-relative_path = ".config/paru"
-type = "directory"
+paths = [
+    { relative_path = ".config/paru", type = "directory" },
+]
 created_at = "2026-08-26T21:36:06.554645+00:00"
 updated_at = "2026-08-28T17:44:30.627169+00:00"
 
 [[targets]]
 name = "procs"
-relative_path = ".config/procs"
-type = "directory"
+paths = [
+    { relative_path = ".config/procs", type = "directory" },
+]
 created_at = "2026-08-28T16:43:05.637086+00:00"
 updated_at = "2026-08-28T17:44:30.632172+00:00"
 
 [[targets]]
 name = "ripgrep"
-relative_path = ".config/ripgrep"
-type = "directory"
+paths = [
+    { relative_path = ".config/ripgrep", type = "directory" },
+]
 created_at = "2026-08-28T05:09:08.251907+00:00"
 updated_at = "2026-08-28T05:09:08.251907+00:00"
 
 [[targets]]
 name = "ssh"
-relative_path = ".ssh/config"
-type = "file"
+paths = [
+    { relative_path = ".ssh/config", type = "file" },
+]
 created_at = "2026-08-27T00:48:04.560372+00:00"
 updated_at = "2026-08-27T00:48:04.560372+00:00"
 
 [[targets]]
 name = "tealdeer"
-relative_path = ".config/tealdeer"
-type = "directory"
+paths = [
+    { relative_path = ".config/tealdeer", type = "directory" },
+]
 created_at = "2026-08-28T16:17:03.441082+00:00"
 updated_at = "2026-08-28T16:17:03.441082+00:00"
 
 [[targets]]
 name = "zsh"
-relative_path = ".config/zsh"
-type = "directory"
+paths = [
+    { relative_path = ".config/zsh", type = "directory" },
+]
 created_at = "2026-08-26T20:35:20.678517+00:00"
 updated_at = "2026-08-28T18:28:59.055186+00:00"
 
 [[targets]]
 name = "zshenv"
-relative_path = ".zshenv"
-type = "file"
+paths = [
+    { relative_path = ".zshenv", type = "file" },
+]
 created_at = "2026-08-26T16:44:50.116141+00:00"
 updated_at = "2026-08-26T16:44:50.116141+00:00"
