@@ -1,0 +1,12 @@
+# Ignore case unless the pattern contains uppercase letters
+--smart-case
+
+# Include hidden files, useful for dotfiles
+--hidden
+
+# Never search Git's internal directory
+--glob=!.git/*
+
+# Avoid flooding the terminal with extremely long lines
+--max-columns=200
+--max-columns-preview
