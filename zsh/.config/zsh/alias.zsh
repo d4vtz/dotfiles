@@ -22,3 +22,8 @@ fi
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+# Lazygit
+if (( $+commands[lazygit] )); then
+    alias lg='lazygit'
+fi
