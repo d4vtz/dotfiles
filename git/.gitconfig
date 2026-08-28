@@ -1,3 +1,25 @@
 [user]
 	name = D4vtz
-	email = davidtorrezreyes@gmail.com
+    email = davidtorrezreyes@gmail.com
+[core]
+    editor = nvim
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    dark = true
+    navigate = true
+    line-numbers = true
+    syntax-theme = Dracula
+    hyperlinks = true
+    relative-paths = true
+    tabs = 4
+
+[merge]
+    conflictStyle = zdiff3
+
+[diff]
+    algorithm = histogram
+    mnemonicPrefix = true
