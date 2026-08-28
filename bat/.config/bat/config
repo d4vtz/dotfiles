@@ -1,0 +1,14 @@
+# Dracula syntax theme
+--theme="Dracula"
+
+# Show line numbers, Git modifications and filename
+--style="default"
+
+# Use italics supported by Kitty and Konsole
+--italic-text=always
+
+# Open a pager only when necessary
+--paging=auto
+
+# Tab width
+--tabs=4
