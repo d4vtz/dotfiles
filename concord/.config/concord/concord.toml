@@ -12,7 +12,7 @@ name = "concord"
 relative_path = ".config/concord"
 type = "directory"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-28T16:07:25.902252+00:00"
+updated_at = "2026-08-28T16:17:03.466638+00:00"
 
 [[targets]]
 name = "bat"
@@ -104,6 +104,13 @@ relative_path = ".ssh/config"
 type = "file"
 created_at = "2026-08-27T00:48:04.560372+00:00"
 updated_at = "2026-08-27T00:48:04.560372+00:00"
+
+[[targets]]
+name = "tealdeer"
+relative_path = ".config/tealdeer"
+type = "directory"
+created_at = "2026-08-28T16:17:03.441082+00:00"
+updated_at = "2026-08-28T16:17:03.441082+00:00"
 
 [[targets]]
 name = "zsh"
