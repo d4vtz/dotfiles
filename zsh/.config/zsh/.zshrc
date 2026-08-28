@@ -118,6 +118,11 @@ setopt hist_verify
 [[ -r "$ZDOTDIR/local.zsh" ]] &&
     source "$ZDOTDIR/local.zsh"
 
+# Direnv
+if (( $+commands[direnv] )); then
+    eval "$(direnv hook zsh)"
+fi
+
 # Syntax highlighting must be loaded last
 if (( $+functions[plug] )); then
     plug "zsh-users/zsh-syntax-highlighting"
