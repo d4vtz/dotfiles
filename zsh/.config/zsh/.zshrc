@@ -114,7 +114,7 @@ setopt hist_verify
 [[ -r "$ZDOTDIR/.p10k.zsh" ]] &&
     source "$ZDOTDIR/.p10k.zsh"
 
-# Locales
+# Local configuration
 [[ -r "$ZDOTDIR/local.zsh" ]] &&
     source "$ZDOTDIR/local.zsh"
 

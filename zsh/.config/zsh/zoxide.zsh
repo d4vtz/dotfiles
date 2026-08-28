@@ -5,13 +5,7 @@
 export _ZO_ECHO=1
 
 # Ignore temporary and cache directories
-export _ZO_EXCLUDE_DIRS="
-$HOME:
-$HOME/.cache/*:
-$HOME/.local/share/Trash/*:
-/tmp/*:
-/var/tmp/*
-"
+export _ZO_EXCLUDE_DIRS="$HOME:$HOME/.cache/*:$HOME/.local/share/Trash/*:/tmp/*:/var/tmp/*"
 
 # Avoid duplicate entries caused by symbolic links
 export _ZO_RESOLVE_SYMLINKS=1

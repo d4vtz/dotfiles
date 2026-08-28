@@ -53,10 +53,6 @@ kind = "Command"
 style = "BrightWhite|White"
 nonnumeric_search = true
 
-[[columns]]
-kind = "TreeSlot"
-style = "BrightMagenta|Magenta"
-
 [style]
 header = "BrightMagenta|Magenta"
 unit = "BrightCyan|Cyan"

@@ -12,7 +12,7 @@ name = "concord"
 relative_path = ".config/concord"
 type = "directory"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-28T16:51:43.753181+00:00"
+updated_at = "2026-08-28T17:44:30.646402+00:00"
 
 [[targets]]
 name = "bat"
@@ -61,7 +61,7 @@ name = "kitty"
 relative_path = ".config/kitty"
 type = "directory"
 created_at = "2026-08-27T16:35:53.259888+00:00"
-updated_at = "2026-08-27T16:35:53.259888+00:00"
+updated_at = "2026-08-28T17:44:30.622568+00:00"
 
 [[targets]]
 name = "konsole"
@@ -96,14 +96,14 @@ name = "paru"
 relative_path = ".config/paru"
 type = "directory"
 created_at = "2026-08-26T21:36:06.554645+00:00"
-updated_at = "2026-08-26T21:36:06.554645+00:00"
+updated_at = "2026-08-28T17:44:30.627169+00:00"
 
 [[targets]]
 name = "procs"
 relative_path = ".config/procs"
 type = "directory"
 created_at = "2026-08-28T16:43:05.637086+00:00"
-updated_at = "2026-08-28T16:43:05.637086+00:00"
+updated_at = "2026-08-28T17:44:30.632172+00:00"
 
 [[targets]]
 name = "ripgrep"
@@ -131,7 +131,7 @@ name = "zsh"
 relative_path = ".config/zsh"
 type = "directory"
 created_at = "2026-08-26T20:35:20.678517+00:00"
-updated_at = "2026-08-28T16:43:19.473021+00:00"
+updated_at = "2026-08-28T17:44:30.639195+00:00"
 
 [[targets]]
 name = "zshenv"

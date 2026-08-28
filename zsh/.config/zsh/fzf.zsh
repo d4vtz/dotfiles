@@ -55,7 +55,7 @@ export FZF_COMPLETION_OPTS="
 
 # Use fd as the source for fzf
 if (( $+commands[fd] )); then
-    export FZF_DEFAULT_COMMAND='fd --type f --hidden --exclude .git'
+    export FZF_DEFAULT_COMMAND='fd --hidden --exclude .git'
     export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
     export FZF_ALT_C_COMMAND='fd --type d --hidden --exclude .git'
 fi
