@@ -45,9 +45,6 @@ if (( $+functions[plug] )); then
     plug "zsh-users/zsh-completions"
     plug "zsh-users/zsh-autosuggestions"
     plug "romkatv/powerlevel10k"
-
-    # Keep syntax highlighting as the last plugin.
-    plug "zsh-users/zsh-syntax-highlighting"
 fi
 
 # Completion
@@ -110,6 +107,10 @@ fi
 [[ -r "$ZDOTDIR/functions.zsh" ]] &&
     source "$ZDOTDIR/functions.zsh"
 
+# Fuzzy finder
+[[ -r "$ZDOTDIR/fzf.zsh" ]] &&
+    source "$ZDOTDIR/fzf.zsh"
+
 # Powerlevel10k configuration
 [[ -r "$ZDOTDIR/.p10k.zsh" ]] &&
     source "$ZDOTDIR/.p10k.zsh"
@@ -117,3 +118,8 @@ fi
 # Locales
 [[ -r "$ZDOTDIR/local.zsh" ]] &&
     source "$ZDOTDIR/local.zsh"
+
+# Syntax highlighting must be loaded last
+if (( $+functions[plug] )); then
+    plug "zsh-users/zsh-syntax-highlighting"
+fi
