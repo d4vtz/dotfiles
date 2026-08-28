@@ -39,7 +39,6 @@ setopt correct
 setopt no_beep
 setopt extended_glob
 
-
 # Plugins
 if (( $+functions[plug] )); then
     plug "zsh-users/zsh-completions"
