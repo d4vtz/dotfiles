@@ -27,3 +27,16 @@ alias ....='cd ../../..'
 if (( $+commands[lazygit] )); then
     alias lg='lazygit'
 fi
+
+
+# Disk usage
+if (( $+commands[dust] )); then
+    alias dus='dust -n 20'
+    alias dusd='dust -D -n 20'
+fi
+
+# Filesystems
+if (( $+commands[duf] )); then
+    alias disks='duf --only local --sort usage'
+    alias inodes='duf --only local --inodes'
+fi
