@@ -40,3 +40,11 @@ if (( $+commands[duf] )); then
     alias disks='duf --only local --sort usage'
     alias inodes='duf --only local --inodes'
 fi
+
+# Processes
+if (( $+commands[procs] )); then
+    alias pcpu='procs --sortd UsageCpu'
+    alias pmem='procs --sortd VmRss'
+    alias ptree='procs --tree'
+    alias pwatch='procs --watch'
+fi
