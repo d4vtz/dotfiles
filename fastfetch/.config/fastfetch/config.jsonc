@@ -29,73 +29,73 @@
 
         {
             "type": "os",
-            "key": "󰣇 OS"
+            "key": "󰣇  OS"
         },
         {
             "type": "host",
-            "key": "󰌢 Equipo"
+            "key": "󰌢  Equipo"
         },
         {
             "type": "kernel",
-            "key": "󰒋 Kernel"
+            "key": "󰒋  Kernel"
         },
         {
             "type": "uptime",
-            "key": "󰅐 Actividad"
+            "key": "󰅐  Actividad"
         },
         {
             "type": "packages",
-            "key": "󰏖 Paquetes"
+            "key": "󰏖  Paquetes"
         },
         {
             "type": "shell",
-            "key": "󰆍 Shell"
+            "key": "󰆍  Shell"
         },
 
         "break",
 
         {
             "type": "display",
-            "key": "󰍹 Pantalla"
+            "key": "󰍹  Pantalla"
         },
         {
             "type": "de",
-            "key": "󰧨 Escritorio"
+            "key": "󰧨  Escritorio"
         },
         {
             "type": "wm",
-            "key": "󰖲 Compositor"
+            "key": "󰖲  Compositor"
         },
         {
             "type": "terminal",
-            "key": "󰆍 Terminal"
+            "key": "󰆍  Terminal"
         },
         {
             "type": "terminalfont",
-            "key": "󰛖 Fuente"
+            "key": "󰛖  Fuente"
         },
 
         "break",
 
         {
             "type": "cpu",
-            "key": "󰻠 CPU"
+            "key": "󰻠  CPU"
         },
         {
             "type": "gpu",
-            "key": "󰢮 GPU"
+            "key": "󰢮  GPU"
         },
         {
             "type": "memory",
-            "key": "󰍛 Memoria"
+            "key": "󰍛  Memoria"
         },
         {
             "type": "swap",
-            "key": "󰓡 Swap"
+            "key": "󰓡  Swap"
         },
         {
             "type": "disk",
-            "key": "󰋊 Disco"
+            "key": "󰋊  Disco"
         },
         {
             "type": "battery",
