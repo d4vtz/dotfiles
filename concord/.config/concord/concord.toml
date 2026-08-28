@@ -12,7 +12,7 @@ name = "concord"
 relative_path = ".config/concord"
 type = "directory"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-28T16:43:19.491515+00:00"
+updated_at = "2026-08-28T16:49:52.269485+00:00"
 
 [[targets]]
 name = "bat"
@@ -34,6 +34,13 @@ relative_path = ".config/chrome-flags.conf"
 type = "file"
 created_at = "2026-08-26T21:41:29.830022+00:00"
 updated_at = "2026-08-26T21:41:29.830022+00:00"
+
+[[targets]]
+name = "fastfetch"
+relative_path = ".config/fastfetch"
+type = "directory"
+created_at = "2026-08-28T16:49:52.255967+00:00"
+updated_at = "2026-08-28T16:49:52.255967+00:00"
 
 [[targets]]
 name = "fd"
