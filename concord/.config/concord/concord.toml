@@ -12,7 +12,7 @@ name = "concord"
 relative_path = ".config/concord"
 type = "directory"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-28T04:48:32.319357+00:00"
+updated_at = "2026-08-28T04:54:04.509894+00:00"
 
 [[targets]]
 name = "bat"
@@ -82,7 +82,7 @@ name = "zsh"
 relative_path = ".config/zsh"
 type = "directory"
 created_at = "2026-08-26T20:35:20.678517+00:00"
-updated_at = "2026-08-28T04:48:32.302227+00:00"
+updated_at = "2026-08-28T04:54:04.493294+00:00"
 
 [[targets]]
 name = "zshenv"

@@ -90,11 +90,6 @@ setopt hist_find_no_dups
 setopt hist_save_no_dups
 setopt hist_verify
 
-# Zoxide
-if (( $+commands[zoxide] )); then
-    eval "$(zoxide init zsh)"
-fi
-
 # Exports
 [[ -r "$ZDOTDIR/exports.zsh" ]] &&
     source "$ZDOTDIR/exports.zsh"
@@ -110,6 +105,10 @@ fi
 # Fuzzy finder
 [[ -r "$ZDOTDIR/fzf.zsh" ]] &&
     source "$ZDOTDIR/fzf.zsh"
+
+# Smart directory navigation
+[[ -r "$ZDOTDIR/zoxide.zsh" ]] &&
+    source "$ZDOTDIR/zoxide.zsh"
 
 # Powerlevel10k configuration
 [[ -r "$ZDOTDIR/.p10k.zsh" ]] &&
