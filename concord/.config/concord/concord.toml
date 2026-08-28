@@ -12,7 +12,7 @@ name = "concord"
 relative_path = ".config/concord"
 type = "directory"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-28T15:09:08.600246+00:00"
+updated_at = "2026-08-28T16:07:25.902252+00:00"
 
 [[targets]]
 name = "bat"
@@ -20,6 +20,13 @@ relative_path = ".config/bat"
 type = "directory"
 created_at = "2026-08-28T04:39:40.829102+00:00"
 updated_at = "2026-08-28T04:39:40.829102+00:00"
+
+[[targets]]
+name = "btop"
+relative_path = ".config/btop"
+type = "directory"
+created_at = "2026-08-28T16:07:25.895911+00:00"
+updated_at = "2026-08-28T16:07:25.895911+00:00"
 
 [[targets]]
 name = "chrome"
