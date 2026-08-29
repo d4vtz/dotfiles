@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T15:51:02.308728+00:00"
+updated_at = "2026-08-29T15:51:35.290982+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -200,6 +200,15 @@ created_at = "2026-08-29T15:51:02.247067+00:00"
 updated_at = "2026-08-29T15:51:02.247067+00:00"
 
 [[targets]]
+id = "8f765864-07e5-47ef-8c45-2076d1de6a6b"
+name = "plasma-color-schemes"
+paths = [
+    { relative_path = ".local/share/color-schemes", type = "directory" },
+]
+created_at = "2026-08-29T15:51:35.207371+00:00"
+updated_at = "2026-08-29T15:51:35.207371+00:00"
+
+[[targets]]
 id = "3c4791e7-b022-4b74-9091-cdff361ab780"
 name = "plasma-look-and-feel"
 paths = [
@@ -327,6 +336,7 @@ targets = [
     { id = "c647ba7e-68f0-4e38-8b3c-01b275928b3c", name = "plasmoids" },
     { id = "bbed7553-7ea2-465d-a95e-6ecf853706cc", name = "wallpapers" },
     { id = "2992c6c9-566f-4c3e-8679-876be0555801", name = "plama-aurorae" },
+    { id = "8f765864-07e5-47ef-8c45-2076d1de6a6b", name = "plasma-color-schemes" },
 ]
 excludes = []
 
