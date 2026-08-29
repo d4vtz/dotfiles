@@ -15,16 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T16:44:56.094670+00:00"
-
-[[targets]]
-id = "14660d4f-7499-4c33-a3a4-1e4c114738da"
-name = "Kvantum"
-paths = [
-    { relative_path = ".config/Kvantum", type = "directory" },
-]
-created_at = "2026-08-29T16:15:50.084080+00:00"
-updated_at = "2026-08-29T16:44:56.082058+00:00"
+updated_at = "2026-08-29T16:46:36.978305+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
