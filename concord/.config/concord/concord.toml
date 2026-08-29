@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T04:49:24.464188+00:00"
+updated_at = "2026-08-29T14:39:56.634974+00:00"
 
 [[targets]]
 id = "3afebe2d-ef4e-49d8-960c-ad0a2c678ede"
@@ -70,6 +70,15 @@ paths = [
 ]
 created_at = "2026-08-27T00:41:14.641172+00:00"
 updated_at = "2026-08-28T05:02:12.679585+00:00"
+
+[[targets]]
+id = "398224e8-c336-4571-90c8-314194b4aec1"
+name = "kdeglobals"
+paths = [
+    { relative_path = ".config/kdeglobals", type = "file" },
+]
+created_at = "2026-08-29T14:39:56.585664+00:00"
+updated_at = "2026-08-29T14:39:56.585664+00:00"
 
 [[targets]]
 id = "0816bc55-8a01-487c-a6b5-c0ecb7faf3f6"
@@ -205,6 +214,7 @@ includes = [
 targets = [
     { id = "7af9e082-33eb-4c66-a9c5-1ac85ab31840", name = "konsole" },
     { id = "33f96fef-c95f-4ebd-9b05-92e8ca8cae05", name = "kwallet" },
+    { id = "398224e8-c336-4571-90c8-314194b4aec1", name = "kdeglobals" },
 ]
 excludes = []
 
