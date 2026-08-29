@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T14:49:42.490712+00:00"
+updated_at = "2026-08-29T14:56:37.321872+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -52,6 +52,15 @@ paths = [
 ]
 created_at = "2026-08-26T21:41:29.830022+00:00"
 updated_at = "2026-08-26T21:41:29.830022+00:00"
+
+[[targets]]
+id = "a6f32ea3-3e33-4bbc-9db9-3549a10b1668"
+name = "dolphinrc"
+paths = [
+    { relative_path = ".config/dolphinrc", type = "file" },
+]
+created_at = "2026-08-29T14:56:37.261764+00:00"
+updated_at = "2026-08-29T14:56:37.261764+00:00"
 
 [[targets]]
 id = "c2107161-fc8e-4f97-a02b-7eead2c37cda"
@@ -255,6 +264,7 @@ targets = [
     { id = "489976dd-737e-461c-acfa-a21f7f0bea1e", name = "kglobalshortcutsrc" },
     { id = "2065fedc-6012-4182-92a5-7d00cd11c223", name = "kscreenlockerrc" },
     { id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9", name = "appletsrc" },
+    { id = "a6f32ea3-3e33-4bbc-9db9-3549a10b1668", name = "dolphinrc" },
 ]
 excludes = []
 
