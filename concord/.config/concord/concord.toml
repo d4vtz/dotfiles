@@ -1,5 +1,5 @@
 version = 2
-minimum_concord_version = "2.3.0"
+minimum_concord_version = "2.3.1"
 repository_path = "~/.local/share/concord/repository"
 
 [git]
@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T04:12:12.929610+00:00"
+updated_at = "2026-08-29T04:49:24.464188+00:00"
 
 [[targets]]
 id = "3afebe2d-ef4e-49d8-960c-ad0a2c678ede"
@@ -175,9 +175,6 @@ updated_at = "2026-08-28T22:08:48.235355+00:00"
 id = "0a8e6c50-acbd-4586-8387-69506908cbc7"
 name = "base"
 description = "Configuraciones base"
-tags = [
-    "terminal",
-]
 includes = []
 targets = [
     { id = "3afebe2d-ef4e-49d8-960c-ad0a2c678ede", name = "bat" },
@@ -202,9 +199,6 @@ excludes = []
 id = "2684cfb5-e49a-4ee0-b68e-ffa87d9de543"
 name = "plasma"
 description = "Plasma KDE"
-tags = [
-    "desktop_manager",
-]
 includes = [
     { id = "0a8e6c50-acbd-4586-8387-69506908cbc7", name = "base" },
 ]
@@ -213,3 +207,12 @@ targets = [
     { id = "33f96fef-c95f-4ebd-9b05-92e8ca8cae05", name = "kwallet" },
 ]
 excludes = []
+
+[suggested_activation]
+complements = [
+    { id = "0a8e6c50-acbd-4586-8387-69506908cbc7", name = "base" },
+]
+
+[suggested_activation.primary]
+id = "2684cfb5-e49a-4ee0-b68e-ffa87d9de543"
+name = "plasma"
