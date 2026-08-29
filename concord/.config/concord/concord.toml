@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T14:47:18.137805+00:00"
+updated_at = "2026-08-29T14:48:22.889915+00:00"
 
 [[targets]]
 id = "3afebe2d-ef4e-49d8-960c-ad0a2c678ede"
@@ -106,6 +106,15 @@ paths = [
 ]
 created_at = "2026-08-27T14:46:20.437208+00:00"
 updated_at = "2026-08-27T14:46:20.437208+00:00"
+
+[[targets]]
+id = "2065fedc-6012-4182-92a5-7d00cd11c223"
+name = "kscreenlockerrc"
+paths = [
+    { relative_path = ".config/kscreenlockerrc", type = "file" },
+]
+created_at = "2026-08-29T14:48:22.833003+00:00"
+updated_at = "2026-08-29T14:48:22.833003+00:00"
 
 [[targets]]
 id = "33f96fef-c95f-4ebd-9b05-92e8ca8cae05"
@@ -235,6 +244,7 @@ targets = [
     { id = "398224e8-c336-4571-90c8-314194b4aec1", name = "kdeglobals" },
     { id = "d6aac7cd-781f-4fbd-b212-57d8cecda647", name = "kwinrc" },
     { id = "489976dd-737e-461c-acfa-a21f7f0bea1e", name = "kglobalshortcutsrc" },
+    { id = "2065fedc-6012-4182-92a5-7d00cd11c223", name = "kscreenlockerrc" },
 ]
 excludes = []
 
