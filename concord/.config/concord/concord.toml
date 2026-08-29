@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T04:10:49.669203+00:00"
+updated_at = "2026-08-29T04:12:12.929610+00:00"
 
 [[targets]]
 id = "3afebe2d-ef4e-49d8-960c-ad0a2c678ede"
@@ -201,8 +201,15 @@ excludes = []
 [[profiles]]
 id = "2684cfb5-e49a-4ee0-b68e-ffa87d9de543"
 name = "plasma"
-description = ""
-tags = []
-includes = []
-targets = []
+description = "Plasma KDE"
+tags = [
+    "desktop_manager",
+]
+includes = [
+    { id = "0a8e6c50-acbd-4586-8387-69506908cbc7", name = "base" },
+]
+targets = [
+    { id = "7af9e082-33eb-4c66-a9c5-1ac85ab31840", name = "konsole" },
+    { id = "33f96fef-c95f-4ebd-9b05-92e8ca8cae05", name = "kwallet" },
+]
 excludes = []
