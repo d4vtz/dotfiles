@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T16:59:04.720922+00:00"
+updated_at = "2026-08-29T17:24:35.104907+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -127,7 +127,7 @@ paths = [
     { relative_path = ".local/share/icons", type = "directory" },
 ]
 created_at = "2026-08-29T15:53:08.572085+00:00"
-updated_at = "2026-08-29T15:53:08.572085+00:00"
+updated_at = "2026-08-29T17:24:35.094172+00:00"
 
 [[targets]]
 id = "398224e8-c336-4571-90c8-314194b4aec1"
