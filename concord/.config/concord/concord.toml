@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T15:03:42.624573+00:00"
+updated_at = "2026-08-29T15:47:17.332559+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -191,6 +191,15 @@ created_at = "2026-08-26T21:36:06.554645+00:00"
 updated_at = "2026-08-28T17:44:30.627169+00:00"
 
 [[targets]]
+id = "662218f4-2b7e-4e9e-88c7-2216276ace8d"
+name = "plasma-themes"
+paths = [
+    { relative_path = ".local/share/plasma/desktoptheme", type = "directory" },
+]
+created_at = "2026-08-29T15:47:17.269077+00:00"
+updated_at = "2026-08-29T15:47:17.269077+00:00"
+
+[[targets]]
 id = "4dcaa054-d7e5-4427-94f7-17577c9324b0"
 name = "procs"
 paths = [
@@ -277,6 +286,7 @@ targets = [
     { id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9", name = "appletsrc" },
     { id = "a6f32ea3-3e33-4bbc-9db9-3549a10b1668", name = "dolphinrc" },
     { id = "402670b3-b50d-4c89-9aa8-3598690e8991", name = "okular" },
+    { id = "662218f4-2b7e-4e9e-88c7-2216276ace8d", name = "plasma-themes" },
 ]
 excludes = []
 
