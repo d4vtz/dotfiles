@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T16:57:26.279085+00:00"
+updated_at = "2026-08-29T16:58:19.587804+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -112,9 +112,10 @@ id = "69ac8f68-2a0e-4ef3-b401-4c6e05756d86"
 name = "gnome-themes"
 paths = [
     { relative_path = ".themes", type = "directory" },
+    { relative_path = ".config/gtk-3.0", type = "directory" },
 ]
 created_at = "2026-08-29T16:57:26.150326+00:00"
-updated_at = "2026-08-29T16:57:26.150326+00:00"
+updated_at = "2026-08-29T16:58:19.578916+00:00"
 
 [[targets]]
 id = "9c434fc4-a71a-4fdb-adc0-49a2c320539d"
