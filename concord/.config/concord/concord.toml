@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-29T03:47:42.906864+00:00"
+updated_at = "2026-08-29T03:57:54.020220+00:00"
 
 [[targets]]
 id = "3afebe2d-ef4e-49d8-960c-ad0a2c678ede"
@@ -174,8 +174,26 @@ updated_at = "2026-08-28T22:08:48.235355+00:00"
 [[profiles]]
 id = "0a8e6c50-acbd-4586-8387-69506908cbc7"
 name = "base"
-description = ""
-tags = []
+description = "Configuraciones base"
+tags = [
+    "terminal",
+]
 includes = []
-targets = []
+targets = [
+    { id = "3afebe2d-ef4e-49d8-960c-ad0a2c678ede", name = "bat" },
+    { id = "b3865f9e-725c-4ee7-95cd-017c1b5fd100", name = "btop" },
+    { id = "d7cf53ec-d732-4fed-a236-0abd9da062bd", name = "chrome" },
+    { id = "c2107161-fc8e-4f97-a02b-7eead2c37cda", name = "fastfetch" },
+    { id = "06df73b7-0227-426a-943f-0e0c749a33e2", name = "fd" },
+    { id = "db52168c-3b70-4ebc-b4c4-69a0be20ff69", name = "git" },
+    { id = "0816bc55-8a01-487c-a6b5-c0ecb7faf3f6", name = "kitty" },
+    { id = "140a74af-b4d0-468f-8cd5-bc7bb578e51e", name = "lazygit" },
+    { id = "94abb2d9-ad46-490a-949e-bcf3d7260ea5", name = "lsd" },
+    { id = "dfb8f011-205f-4411-8da8-3104d9025707", name = "paru" },
+    { id = "4dcaa054-d7e5-4427-94f7-17577c9324b0", name = "procs" },
+    { id = "33cebc4b-dbe5-4780-9b63-86e122b051a6", name = "ripgrep" },
+    { id = "d41e59e3-8fd2-4262-aad5-00f41eab5354", name = "ssh" },
+    { id = "3945baef-d5d1-4b27-8bb9-b5e9c44ee3ee", name = "tealdeer" },
+    { id = "14af3217-c553-42df-8e77-a9a63eac12c1", name = "zsh" },
+]
 excludes = []
