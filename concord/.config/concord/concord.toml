@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T15:44:42.336000+00:00"
+updated_at = "2026-08-30T15:45:22.460241+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -231,6 +231,9 @@ paths = [
 ]
 created_at = "2026-08-28T15:09:08.581862+00:00"
 updated_at = "2026-08-28T15:09:08.581862+00:00"
+dependencies = [
+    { package = "lazygit", manager = "pacman", optional = false },
+]
 
 [[targets]]
 id = "94abb2d9-ad46-490a-949e-bcf3d7260ea5"
