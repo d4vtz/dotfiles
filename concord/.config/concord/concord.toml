@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T18:37:18.660731+00:00"
+updated_at = "2026-08-30T18:38:01.054522+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -410,6 +410,7 @@ dependencies = [
     { package = "jq", manager = "pacman", optional = true },
     { package = "dust", manager = "pacman", optional = true },
     { package = "duf", manager = "pacman", optional = true },
+    { package = "go-yq", manager = "pacman", optional = true },
 ]
 
 [[profiles]]
