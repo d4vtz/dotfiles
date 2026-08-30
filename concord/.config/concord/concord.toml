@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T04:28:56.580587+00:00"
+updated_at = "2026-08-30T04:37:12.202520+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -145,7 +145,7 @@ paths = [
     { relative_path = ".config/kglobalshortcutsrc", type = "file" },
 ]
 created_at = "2026-08-29T14:47:18.091440+00:00"
-updated_at = "2026-08-29T14:47:18.091440+00:00"
+updated_at = "2026-08-30T04:37:12.191379+00:00"
 
 [[targets]]
 id = "0816bc55-8a01-487c-a6b5-c0ecb7faf3f6"
