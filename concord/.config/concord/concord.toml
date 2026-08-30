@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T18:33:32.656057+00:00"
+updated_at = "2026-08-30T18:34:07.192002+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -444,24 +444,25 @@ includes = [
     { id = "0a8e6c50-acbd-4586-8387-69506908cbc7", name = "base" },
 ]
 targets = [
-    { id = "7af9e082-33eb-4c66-a9c5-1ac85ab31840", name = "konsole" },
-    { id = "33f96fef-c95f-4ebd-9b05-92e8ca8cae05", name = "kwallet" },
-    { id = "398224e8-c336-4571-90c8-314194b4aec1", name = "kdeglobals" },
-    { id = "d6aac7cd-781f-4fbd-b212-57d8cecda647", name = "kwinrc" },
-    { id = "489976dd-737e-461c-acfa-a21f7f0bea1e", name = "kglobalshortcutsrc" },
-    { id = "2065fedc-6012-4182-92a5-7d00cd11c223", name = "kscreenlockerrc" },
     { id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9", name = "appletsrc" },
+    { id = "d7cf53ec-d732-4fed-a236-0abd9da062bd", name = "chrome" },
+    { id = "92ba2db0-2374-4957-a46c-bb5476a0260c", name = "cursors-theme" },
     { id = "a6f32ea3-3e33-4bbc-9db9-3549a10b1668", name = "dolphinrc" },
+    { id = "69ac8f68-2a0e-4ef3-b401-4c6e05756d86", name = "gnome-themes" },
+    { id = "9c434fc4-a71a-4fdb-adc0-49a2c320539d", name = "icons" },
+    { id = "398224e8-c336-4571-90c8-314194b4aec1", name = "kdeglobals" },
+    { id = "489976dd-737e-461c-acfa-a21f7f0bea1e", name = "kglobalshortcutsrc" },
+    { id = "7af9e082-33eb-4c66-a9c5-1ac85ab31840", name = "konsole" },
+    { id = "2065fedc-6012-4182-92a5-7d00cd11c223", name = "kscreenlockerrc" },
+    { id = "b0c86e36-5b32-4944-8670-e16eadcd9af9", name = "kvantum" },
+    { id = "33f96fef-c95f-4ebd-9b05-92e8ca8cae05", name = "kwallet" },
+    { id = "d6aac7cd-781f-4fbd-b212-57d8cecda647", name = "kwinrc" },
     { id = "402670b3-b50d-4c89-9aa8-3598690e8991", name = "okular" },
-    { id = "662218f4-2b7e-4e9e-88c7-2216276ace8d", name = "plasma-themes" },
-    { id = "3c4791e7-b022-4b74-9091-cdff361ab780", name = "plasma-look-and-feel" },
-    { id = "c647ba7e-68f0-4e38-8b3c-01b275928b3c", name = "plasmoids" },
     { id = "2992c6c9-566f-4c3e-8679-876be0555801", name = "plama-aurorae" },
     { id = "8f765864-07e5-47ef-8c45-2076d1de6a6b", name = "plasma-color-schemes" },
-    { id = "9c434fc4-a71a-4fdb-adc0-49a2c320539d", name = "icons" },
-    { id = "92ba2db0-2374-4957-a46c-bb5476a0260c", name = "cursors-theme" },
-    { id = "b0c86e36-5b32-4944-8670-e16eadcd9af9", name = "kvantum" },
-    { id = "69ac8f68-2a0e-4ef3-b401-4c6e05756d86", name = "gnome-themes" },
+    { id = "3c4791e7-b022-4b74-9091-cdff361ab780", name = "plasma-look-and-feel" },
+    { id = "662218f4-2b7e-4e9e-88c7-2216276ace8d", name = "plasma-themes" },
+    { id = "c647ba7e-68f0-4e38-8b3c-01b275928b3c", name = "plasmoids" },
     { id = "3f2e72ab-e1a2-4efd-8a65-3cae76ae7a69", name = "wallpapers" },
 ]
 excludes = []
