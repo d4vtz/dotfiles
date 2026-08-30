@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T14:32:39.883029+00:00"
+updated_at = "2026-08-30T14:39:42.031983+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -114,11 +114,10 @@ paths = [
     { relative_path = ".themes", type = "directory" },
     { relative_path = ".config/gtk-3.0", type = "directory" },
     { relative_path = ".config/gtk-4.0", type = "directory" },
-    { relative_path = ".config/gtkrc", type = "file" },
     { relative_path = ".config/gtkrc-2.0", type = "file" },
 ]
 created_at = "2026-08-29T16:57:26.150326+00:00"
-updated_at = "2026-08-30T04:40:51.424608+00:00"
+updated_at = "2026-08-30T14:39:42.013321+00:00"
 
 [[targets]]
 id = "9c434fc4-a71a-4fdb-adc0-49a2c320539d"
