@@ -168,7 +168,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][28][Wallpaper][org.kde.image][General]
-Image=file:///home/medicendav/.local/share/wallpapers/wallpapers/arctic-landscape.png
+Image=file:///home/medicendav/.local/share/wallpapers/Dracula/first-collection/kde.png
 SlidePaths=/home/medicendav/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][30]
