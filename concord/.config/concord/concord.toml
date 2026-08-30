@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T15:01:42.639397+00:00"
+updated_at = "2026-08-30T15:15:42.769590+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -100,6 +100,9 @@ paths = [
 ]
 created_at = "2026-08-28T05:15:44.644269+00:00"
 updated_at = "2026-08-28T05:15:44.644269+00:00"
+dependencies = [
+    { package = "fd", manager = "pacman", optional = false },
+]
 
 [[targets]]
 id = "24eb1bb3-50c1-4b07-8774-27280c80bb5d"
