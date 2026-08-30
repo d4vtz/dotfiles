@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T18:34:07.192002+00:00"
+updated_at = "2026-08-30T18:34:29.425749+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -468,9 +468,7 @@ targets = [
 excludes = []
 
 [suggested_activation]
-complements = [
-    { id = "0a8e6c50-acbd-4586-8387-69506908cbc7", name = "base" },
-]
+complements = []
 
 [suggested_activation.primary]
 id = "2684cfb5-e49a-4ee0-b68e-ffa87d9de543"
