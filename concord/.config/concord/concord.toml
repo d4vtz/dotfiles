@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T18:30:08.460539+00:00"
+updated_at = "2026-08-30T18:30:12.173686+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -228,6 +228,9 @@ paths = [
 ]
 created_at = "2026-08-26T23:37:11.017369+00:00"
 updated_at = "2026-08-26T23:37:11.017369+00:00"
+dependencies = [
+    { package = "ksshaskpass", manager = "pacman", optional = false },
+]
 
 [[targets]]
 id = "d6aac7cd-781f-4fbd-b212-57d8cecda647"
