@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T15:46:27.594032+00:00"
+updated_at = "2026-08-30T15:47:46.283647+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -265,6 +265,10 @@ paths = [
 ]
 created_at = "2026-08-26T21:36:06.554645+00:00"
 updated_at = "2026-08-28T17:44:30.627169+00:00"
+dependencies = [
+    { package = "paru", manager = "aur", optional = false },
+    { package = "ranger", manager = "aur", optional = false },
+]
 
 [[targets]]
 id = "2992c6c9-566f-4c3e-8679-876be0555801"
