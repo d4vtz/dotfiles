@@ -1,0 +1,12 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[Recent Files]
+File1[$e]=$HOME/Descargas/A-First-Course-in-Probability.pdf
+File2[$e]=$HOME/Descargas/Matemáticas Simplificadas (4ta edición).pdf
+Name1[$e]=A-First-Course-in-Probability.pdf
+Name2[$e]=Matemáticas Simplificadas (4ta edición).pdf

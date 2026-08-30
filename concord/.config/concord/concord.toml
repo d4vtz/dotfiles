@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T04:40:51.437884+00:00"
+updated_at = "2026-08-30T14:32:14.620132+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -226,9 +226,10 @@ id = "402670b3-b50d-4c89-9aa8-3598690e8991"
 name = "okular"
 paths = [
     { relative_path = ".config/okularpartrc", type = "file" },
+    { relative_path = ".config/okularrc", type = "file" },
 ]
 created_at = "2026-08-29T15:02:24.921201+00:00"
-updated_at = "2026-08-30T04:38:21.866047+00:00"
+updated_at = "2026-08-30T14:32:14.602238+00:00"
 
 [[targets]]
 id = "dfb8f011-205f-4411-8da8-3104d9025707"
