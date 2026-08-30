@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T18:31:10.567789+00:00"
+updated_at = "2026-08-30T18:33:32.656057+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -421,7 +421,6 @@ includes = []
 targets = [
     { id = "3afebe2d-ef4e-49d8-960c-ad0a2c678ede", name = "bat" },
     { id = "b3865f9e-725c-4ee7-95cd-017c1b5fd100", name = "btop" },
-    { id = "d7cf53ec-d732-4fed-a236-0abd9da062bd", name = "chrome" },
     { id = "c2107161-fc8e-4f97-a02b-7eead2c37cda", name = "fastfetch" },
     { id = "06df73b7-0227-426a-943f-0e0c749a33e2", name = "fd" },
     { id = "db52168c-3b70-4ebc-b4c4-69a0be20ff69", name = "git" },
