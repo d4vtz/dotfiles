@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T18:26:29.903156+00:00"
+updated_at = "2026-08-30T18:26:35.741645+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -389,6 +389,9 @@ dependencies = [
     { package = "zsh", manager = "pacman", optional = false },
     { package = "ttf-iosevka-nerd", manager = "pacman", optional = false },
     { package = "lsd", manager = "pacman", optional = false },
+    { package = "curl", manager = "pacman", optional = false },
+    { package = "neovim", manager = "pacman", optional = false },
+    { package = "less", manager = "pacman", optional = false },
     { package = "zoxide", manager = "pacman", optional = true },
     { package = "fzf", manager = "pacman", optional = true },
     { package = "direnv", manager = "pacman", optional = true },
