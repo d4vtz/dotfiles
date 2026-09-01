@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-09-01T20:47:07.614791+00:00"
+updated_at = "2026-09-01T20:47:50.046051+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -465,6 +465,14 @@ targets = [
     { id = "402670b3-b50d-4c89-9aa8-3598690e8991", name = "okular" },
     { id = "3f2e72ab-e1a2-4efd-8a65-3cae76ae7a69", name = "wallpapers" },
 ]
+excludes = []
+
+[[profiles]]
+id = "aed5463e-db27-4353-b39a-8b31896b60d6"
+name = "hyprland"
+description = ""
+includes = []
+targets = []
 excludes = []
 
 [[profiles]]
