@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-09-01T20:44:09.298793+00:00"
+updated_at = "2026-09-01T20:47:07.614791+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -137,6 +137,15 @@ paths = [
 ]
 created_at = "2026-08-29T16:57:26.150326+00:00"
 updated_at = "2026-08-30T14:39:54.233951+00:00"
+
+[[targets]]
+id = "f6d977b9-2668-41c4-bc0a-6b19ef1e056f"
+name = "hyprland"
+paths = [
+    { relative_path = ".config/hypr", type = "directory" },
+]
+created_at = "2026-09-01T20:47:07.588079+00:00"
+updated_at = "2026-09-01T20:47:07.588079+00:00"
 
 [[targets]]
 id = "9c434fc4-a71a-4fdb-adc0-49a2c320539d"
