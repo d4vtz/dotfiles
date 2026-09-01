@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-08-30T18:38:01.054522+00:00"
+updated_at = "2026-09-01T20:40:10.060838+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -434,6 +434,14 @@ targets = [
     { id = "3945baef-d5d1-4b27-8bb9-b5e9c44ee3ee", name = "tealdeer" },
     { id = "14af3217-c553-42df-8e77-a9a63eac12c1", name = "zsh" },
 ]
+excludes = []
+
+[[profiles]]
+id = "fa1ec35f-03c2-4b07-87e9-102c2addfbed"
+name = "desktop"
+description = ""
+includes = []
+targets = []
 excludes = []
 
 [[profiles]]
