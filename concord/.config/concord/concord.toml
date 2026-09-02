@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-09-02T03:40:13.632443+00:00"
+updated_at = "2026-09-02T03:41:18.636439+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -145,7 +145,7 @@ paths = [
     { relative_path = ".config/hypr", type = "directory" },
 ]
 created_at = "2026-09-01T20:47:07.588079+00:00"
-updated_at = "2026-09-01T20:47:07.588079+00:00"
+updated_at = "2026-09-02T03:41:18.628580+00:00"
 dependencies = [
     { package = "hyprland", manager = "pacman", optional = false },
     { package = "uwsm", manager = "pacman", optional = false },
