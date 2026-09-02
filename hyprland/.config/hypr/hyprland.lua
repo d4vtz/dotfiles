@@ -95,7 +95,6 @@ hl.config({
 
 		layout = "master",
 	},
-
 	decoration = {
 		rounding = 10,
 		rounding_power = 2,
@@ -180,7 +179,11 @@ hl.config({
 -- See https://wiki.hypr.land/Configuring/Layouts/Master-Layout/ for more
 hl.config({
 	master = {
-		new_status = "master",
+		new_status = "slave",
+		new_on_top = false,
+		orientation = "left",
+		mfact = 0.60,
+		focus_master_on_close = true,
 	},
 })
 
@@ -244,7 +247,7 @@ hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
 hl.bind(
-	mainMod .. " + Q",
+	mainMod .. " + M",
 	hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'")
 )
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
@@ -306,6 +309,33 @@ hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next"), { locked = true })
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
+
+-- Focus using Vim keys
+hl.bind(mainMod .. " + H", hl.dsp.focus({ direction = "left" }))
+hl.bind(mainMod .. " + J", hl.dsp.focus({ direction = "down" }))
+hl.bind(mainMod .. " + K", hl.dsp.focus({ direction = "up" }))
+hl.bind(mainMod .. " + L", hl.dsp.focus({ direction = "right" }))
+
+-- Swap tiled windows
+hl.bind(mainMod .. " + SHIFT + H", hl.dsp.window.swap({ direction = "left" }))
+hl.bind(mainMod .. " + SHIFT + J", hl.dsp.window.swap({ direction = "down" }))
+hl.bind(mainMod .. " + SHIFT + K", hl.dsp.window.swap({ direction = "up" }))
+hl.bind(mainMod .. " + SHIFT + L", hl.dsp.window.swap({ direction = "right" }))
+
+-- Master layout
+hl.bind(mainMod .. " + SHIFT + RETURN", hl.dsp.layout("swapwithmaster auto"))
+hl.bind(mainMod .. " + TAB", hl.dsp.layout("cyclenext loop"))
+hl.bind(mainMod .. " + CTRL + LEFT", hl.dsp.layout("mfact -0.05"), { repeating = true })
+hl.bind(mainMod .. " + CTRL + RIGHT", hl.dsp.layout("mfact +0.05"), { repeating = true })
+
+-- Fullscreen
+hl.bind(
+	mainMod .. " + F",
+	hl.dsp.window.fullscreen({
+		action = "toggle",
+		mode = "fullscreen",
+	})
+)
 
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
