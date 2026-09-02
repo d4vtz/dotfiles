@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-09-01T20:54:51.788023+00:00"
+updated_at = "2026-09-02T03:40:13.632443+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -153,6 +153,10 @@ dependencies = [
     { package = "qt5-wayland", manager = "pacman", optional = false },
     { package = "qt6-wayland", manager = "pacman", optional = false },
     { package = "hyprpolkitagent", manager = "pacman", optional = false },
+    { package = "pipewire", manager = "pacman", optional = false },
+    { package = "wireplumber", manager = "pacman", optional = false },
+    { package = "brightnessctl", manager = "pacman", optional = false },
+    { package = "playerctl", manager = "pacman", optional = false },
 ]
 
 [[targets]]
