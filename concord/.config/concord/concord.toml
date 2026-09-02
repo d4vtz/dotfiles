@@ -15,7 +15,7 @@ paths = [
     { relative_path = ".config/concord", type = "directory" },
 ]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-09-02T03:47:09.674596+00:00"
+updated_at = "2026-09-02T04:15:41.103107+00:00"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
@@ -157,6 +157,7 @@ dependencies = [
     { package = "wireplumber", manager = "pacman", optional = false },
     { package = "brightnessctl", manager = "pacman", optional = false },
     { package = "playerctl", manager = "pacman", optional = false },
+    { package = "rtkit", manager = "pacman", optional = false },
 ]
 
 [[targets]]
