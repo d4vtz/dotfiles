@@ -1,7 +1,6 @@
 version = 2
-minimum_concord_version = "2.5.0"
+minimum_concord_version = "2.8.0"
 repository_path = "~/.local/share/concord/repository"
-secrets = []
 
 [git]
 enabled = true
@@ -13,7 +12,7 @@ remote = "origin"
 id = "bb226a11-fc7f-42e3-a33b-d77356919a4b"
 name = "concord"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-09-04T16:33:13.103996+00:00"
+updated_at = "2026-09-04T16:33:51.768644+00:00"
 
 [[targets.paths]]
 relative_path = ".config/concord"
@@ -436,7 +435,7 @@ id = "32043d6a-47e0-45f1-9c1c-22ee5dacb180"
 id = "d41e59e3-8fd2-4262-aad5-00f41eab5354"
 name = "ssh"
 created_at = "2026-08-27T00:48:04.560372+00:00"
-updated_at = "2026-09-04T16:33:13.082821+00:00"
+updated_at = "2026-09-04T16:33:51.759572+00:00"
 dependencies = [
     { package = "openssh", manager = "pacman", optional = false },
 ]
@@ -585,6 +584,18 @@ id = "3e215284-be3b-4ab4-914f-6a87cf0f9453"
 recipient = "age1pxffasxem49y5n7v2u9mn0jlu9pcpmr9s4awa7pqh40pkth3ggqqvnuk9z"
 master_wrapper = "YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IHNjcnlwdCBnUG5SV1I5L1BLTXJzcjloZ3U4RUVRIDE4CmxqSy9saTNtVDdmRitpWTl0UzAzZWVCTDFaUyt3SWhmb1VaajBJcUY3MlEKLS0tIDljUXJRRDRydEppRWFkNHk4cW9ScWpjTmlraFVUQjZrU1MwUWNyYlorcDQKA0tEpqCI2PHttJFZ92xop5Wv8Pm9wHtpDiWIgx2Dmf9kVi9S/hXuNENhBakN7MvNpxTuechxsWH4dmLst2dCUoKXV5cQ96507CC1aM9W64wh7Ny1JGnvhHlCAIHLSP++ijFyEqK9F7f01g=="
 recovery_wrapper = "YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IHNjcnlwdCB1VWFmSm9yUE1JRmdnejRjelVveFpRIDE4CnZ5dFdNYlZqUEJ2S2tONE9obFBzOTJVdUNZSVVETVMwcU1EcVgwTE9NNE0KLS0tIHptVkNENk5HMG9HZnROMzBpYUU0OXhOcmFySEhrTmFTa3EyM0t1NmY0d28KTpEKMOOvdrAST+3ZDyrBXjcWpRbB03hz+jVhb3lQaEx2ZIQcNu1FQQSwSTiYhAIA4hUCQM1K6TQtZecPbTAVrQbzoP0yTiYkCMKO++f2XXilGTTXVmZaJboUDEEytq1x7i9gxYVhWvUGLg=="
+
+[[secrets]]
+id = "3ea917ca-3268-46a2-bdd2-b4054f991bee"
+target_path_id = "ef3dd2a0-6c46-4024-900a-aa1dbe74e5dd"
+relative_file = "."
+kind = "file"
+mode = 384
+names = []
+
+[secrets.target]
+id = "d41e59e3-8fd2-4262-aad5-00f41eab5354"
+name = "ssh"
 
 [suggested_activation]
 complements = []
