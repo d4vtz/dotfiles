@@ -1,6 +1,7 @@
 version = 2
 minimum_concord_version = "2.5.0"
 repository_path = "~/.local/share/concord/repository"
+secrets = []
 
 [git]
 enabled = true
@@ -11,18 +12,17 @@ remote = "origin"
 [[targets]]
 id = "bb226a11-fc7f-42e3-a33b-d77356919a4b"
 name = "concord"
-paths = [
-    { relative_path = ".config/concord", type = "directory" },
-]
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-09-02T14:58:36.180604+00:00"
+updated_at = "2026-09-04T16:30:42.441977+00:00"
+
+[[targets.paths]]
+relative_path = ".config/concord"
+type = "directory"
+id = "06919bcd-e848-47e9-9ff7-44144bd4b295"
 
 [[targets]]
 id = "063cc4e4-fac4-449a-8e1a-eca69bc304d9"
 name = "appletsrc"
-paths = [
-    { relative_path = ".config/plasma-org.kde.plasma.desktop-appletsrc", type = "file" },
-]
 created_at = "2026-08-29T14:49:42.435156+00:00"
 updated_at = "2026-08-30T04:28:56.569257+00:00"
 dependencies = [
@@ -31,47 +31,58 @@ dependencies = [
     { package = "merkuro", manager = "pacman", optional = true },
 ]
 
+[[targets.paths]]
+relative_path = ".config/plasma-org.kde.plasma.desktop-appletsrc"
+type = "file"
+id = "1502ccfc-bc14-46fb-9aed-a54ceb50e042"
+
 [[targets]]
 id = "3afebe2d-ef4e-49d8-960c-ad0a2c678ede"
 name = "bat"
-paths = [
-    { relative_path = ".config/bat", type = "directory" },
-]
 created_at = "2026-08-28T04:39:40.829102+00:00"
 updated_at = "2026-08-28T04:39:40.829102+00:00"
 dependencies = [
     { package = "bat", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/bat"
+type = "directory"
+id = "da2f6af4-1698-4b1d-8b4a-4bbd1c4aec65"
+
 [[targets]]
 id = "b3865f9e-725c-4ee7-95cd-017c1b5fd100"
 name = "btop"
-paths = [
-    { relative_path = ".config/btop", type = "directory" },
-]
 created_at = "2026-08-28T16:07:25.895911+00:00"
 updated_at = "2026-08-28T16:07:25.895911+00:00"
 dependencies = [
     { package = "btop", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/btop"
+type = "directory"
+id = "c48a6465-5d4e-4cc4-8616-e6bd4c9b3b83"
+
 [[targets]]
 id = "d7cf53ec-d732-4fed-a236-0abd9da062bd"
 name = "chrome"
-paths = [
-    { relative_path = ".config/chrome-flags.conf", type = "file" },
-]
 created_at = "2026-08-26T21:41:29.830022+00:00"
 updated_at = "2026-08-26T21:41:29.830022+00:00"
 dependencies = [
     { package = "google-chrome", manager = "aur", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/chrome-flags.conf"
+type = "file"
+id = "018513a1-d80a-4372-8358-66ed78f4a6dc"
+
 [[targets]]
 id = "92ba2db0-2374-4957-a46c-bb5476a0260c"
 name = "cursors-theme"
 paths = [
-    { relative_path = ".icons", type = "directory" },
+    { relative_path = ".icons", type = "directory", id = "26b2b70a-e4f3-4fe0-9cf4-c8f2c1cdd6e2" },
 ]
 created_at = "2026-08-29T16:01:50.405379+00:00"
 updated_at = "2026-08-29T16:01:50.405379+00:00"
@@ -79,44 +90,50 @@ updated_at = "2026-08-29T16:01:50.405379+00:00"
 [[targets]]
 id = "a6f32ea3-3e33-4bbc-9db9-3549a10b1668"
 name = "dolphinrc"
-paths = [
-    { relative_path = ".config/dolphinrc", type = "file" },
-]
 created_at = "2026-08-29T14:56:37.261764+00:00"
 updated_at = "2026-08-29T14:56:37.261764+00:00"
 dependencies = [
     { package = "dolphin", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/dolphinrc"
+type = "file"
+id = "3945d877-19db-411d-b0ef-f9b1895f2ec6"
+
 [[targets]]
 id = "c2107161-fc8e-4f97-a02b-7eead2c37cda"
 name = "fastfetch"
-paths = [
-    { relative_path = ".config/fastfetch", type = "directory" },
-]
 created_at = "2026-08-28T16:49:52.255967+00:00"
 updated_at = "2026-08-28T16:51:43.726011+00:00"
 dependencies = [
     { package = "fastfetch", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/fastfetch"
+type = "directory"
+id = "383b0892-be7d-4c85-955e-38f9441c69f4"
+
 [[targets]]
 id = "06df73b7-0227-426a-943f-0e0c749a33e2"
 name = "fd"
-paths = [
-    { relative_path = ".config/fd", type = "directory" },
-]
 created_at = "2026-08-28T05:15:44.644269+00:00"
 updated_at = "2026-08-28T05:15:44.644269+00:00"
 dependencies = [
     { package = "fd", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/fd"
+type = "directory"
+id = "0c4a71cb-2a2b-4451-acd7-5d45d82c85e3"
+
 [[targets]]
 id = "db52168c-3b70-4ebc-b4c4-69a0be20ff69"
 name = "git"
 paths = [
-    { relative_path = ".gitconfig", type = "file" },
+    { relative_path = ".gitconfig", type = "file", id = "b448c00b-4aa0-42b5-9431-fc9875005d19" },
 ]
 created_at = "2026-08-27T00:41:14.641172+00:00"
 updated_at = "2026-08-28T05:02:12.679585+00:00"
@@ -130,47 +147,60 @@ dependencies = [
 [[targets]]
 id = "69ac8f68-2a0e-4ef3-b401-4c6e05756d86"
 name = "gnome-themes"
-paths = [
-    { relative_path = ".themes", type = "directory" },
-    { relative_path = ".config/gtk-3.0", type = "directory" },
-    { relative_path = ".config/gtk-4.0", type = "directory" },
-]
 created_at = "2026-08-29T16:57:26.150326+00:00"
 updated_at = "2026-08-30T14:39:54.233951+00:00"
+
+[[targets.paths]]
+relative_path = ".themes"
+type = "directory"
+id = "3be32fc1-1b14-4e76-8a72-59b8e4ca72be"
+
+[[targets.paths]]
+relative_path = ".config/gtk-3.0"
+type = "directory"
+id = "b68aed4d-59f6-4a50-af5f-33386652d355"
+
+[[targets.paths]]
+relative_path = ".config/gtk-4.0"
+type = "directory"
+id = "553f7be9-c2c0-4d62-a013-567e3c58942e"
 
 [[targets]]
 id = "9c434fc4-a71a-4fdb-adc0-49a2c320539d"
 name = "icons"
-paths = [
-    { relative_path = ".local/share/icons", type = "directory" },
-]
 created_at = "2026-08-29T15:53:08.572085+00:00"
 updated_at = "2026-08-29T17:24:35.094172+00:00"
+
+[[targets.paths]]
+relative_path = ".local/share/icons"
+type = "directory"
+id = "0bd7993b-4f46-4556-89ec-17d27c6ea4d6"
 
 [[targets]]
 id = "398224e8-c336-4571-90c8-314194b4aec1"
 name = "kdeglobals"
-paths = [
-    { relative_path = ".config/kdeglobals", type = "file" },
-]
 created_at = "2026-08-29T14:39:56.585664+00:00"
 updated_at = "2026-08-29T14:39:56.585664+00:00"
+
+[[targets.paths]]
+relative_path = ".config/kdeglobals"
+type = "file"
+id = "579d5653-6b79-469f-bd07-d1d4385b14eb"
 
 [[targets]]
 id = "489976dd-737e-461c-acfa-a21f7f0bea1e"
 name = "kglobalshortcutsrc"
-paths = [
-    { relative_path = ".config/kglobalshortcutsrc", type = "file" },
-]
 created_at = "2026-08-29T14:47:18.091440+00:00"
 updated_at = "2026-08-30T04:37:12.191379+00:00"
+
+[[targets.paths]]
+relative_path = ".config/kglobalshortcutsrc"
+type = "file"
+id = "ffd4372b-6e9c-40a4-84bd-94e7b3ce4f20"
 
 [[targets]]
 id = "0816bc55-8a01-487c-a6b5-c0ecb7faf3f6"
 name = "kitty"
-paths = [
-    { relative_path = ".config/kitty", type = "directory" },
-]
 created_at = "2026-08-27T16:35:53.259888+00:00"
 updated_at = "2026-08-28T17:44:30.622568+00:00"
 dependencies = [
@@ -178,14 +208,14 @@ dependencies = [
     { package = "ttf-iosevka-nerd", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/kitty"
+type = "directory"
+id = "40d096b5-6b21-4cc2-86d2-5ffa8a91cb75"
+
 [[targets]]
 id = "7af9e082-33eb-4c66-a9c5-1ac85ab31840"
 name = "konsole"
-paths = [
-    { relative_path = ".local/share/konsole", type = "directory" },
-    { relative_path = ".config/konsolerc", type = "file" },
-    { relative_path = ".config/konsolesshconfig", type = "file" },
-]
 created_at = "2026-08-27T14:46:20.437208+00:00"
 updated_at = "2026-08-29T15:03:42.608698+00:00"
 dependencies = [
@@ -194,54 +224,74 @@ dependencies = [
     { package = "ttf-iosevka-nerd", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".local/share/konsole"
+type = "directory"
+id = "c15eab63-8863-4b77-85df-5fed07f32963"
+
+[[targets.paths]]
+relative_path = ".config/konsolerc"
+type = "file"
+id = "0076ef48-de17-4284-89ca-322fbbc3e06d"
+
+[[targets.paths]]
+relative_path = ".config/konsolesshconfig"
+type = "file"
+id = "d1152617-42d9-436b-88cc-67bbc0695cb1"
+
 [[targets]]
 id = "2065fedc-6012-4182-92a5-7d00cd11c223"
 name = "kscreenlockerrc"
-paths = [
-    { relative_path = ".config/kscreenlockerrc", type = "file" },
-]
 created_at = "2026-08-29T14:48:22.833003+00:00"
 updated_at = "2026-08-29T14:48:22.833003+00:00"
+
+[[targets.paths]]
+relative_path = ".config/kscreenlockerrc"
+type = "file"
+id = "d228c1e0-bff0-4c77-98f4-e3daca098419"
 
 [[targets]]
 id = "b0c86e36-5b32-4944-8670-e16eadcd9af9"
 name = "kvantum"
-paths = [
-    { relative_path = ".config/Kvantum", type = "directory" },
-]
 created_at = "2026-08-29T16:48:27.907172+00:00"
 updated_at = "2026-08-29T16:48:27.907172+00:00"
 dependencies = [
     { package = "kvantum", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/Kvantum"
+type = "directory"
+id = "86ab1ac8-74f5-4700-85fa-829eb70ae8a0"
+
 [[targets]]
 id = "33f96fef-c95f-4ebd-9b05-92e8ca8cae05"
 name = "kwallet"
-paths = [
-    { relative_path = ".config/environment.d", type = "directory" },
-]
 created_at = "2026-08-26T23:37:11.017369+00:00"
 updated_at = "2026-08-26T23:37:11.017369+00:00"
 dependencies = [
     { package = "ksshaskpass", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/environment.d"
+type = "directory"
+id = "5d6445b7-bf56-4eb7-bfb7-4bb0545f8f4d"
+
 [[targets]]
 id = "d6aac7cd-781f-4fbd-b212-57d8cecda647"
 name = "kwinrc"
-paths = [
-    { relative_path = ".config/kwinrc", type = "file" },
-]
 created_at = "2026-08-29T14:46:30.821249+00:00"
 updated_at = "2026-08-29T14:46:30.821249+00:00"
+
+[[targets.paths]]
+relative_path = ".config/kwinrc"
+type = "file"
+id = "dbc19cbd-cc54-4b06-a1fd-6d2e107adbb5"
 
 [[targets]]
 id = "140a74af-b4d0-468f-8cd5-bc7bb578e51e"
 name = "lazygit"
-paths = [
-    { relative_path = ".config/lazygit", type = "directory" },
-]
 created_at = "2026-08-28T15:09:08.581862+00:00"
 updated_at = "2026-08-28T15:09:08.581862+00:00"
 dependencies = [
@@ -250,36 +300,42 @@ dependencies = [
     { package = "neovim", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/lazygit"
+type = "directory"
+id = "d232053b-c991-4a59-b30c-ffc76e1bc2a3"
+
 [[targets]]
 id = "94abb2d9-ad46-490a-949e-bcf3d7260ea5"
 name = "lsd"
-paths = [
-    { relative_path = ".config/lsd", type = "directory" },
-]
 created_at = "2026-08-26T21:07:00.296814+00:00"
 updated_at = "2026-08-27T04:38:11.216334+00:00"
 dependencies = [
     { package = "lsd", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/lsd"
+type = "directory"
+id = "70ba0fab-75cb-4452-bc5b-f6de89a7838c"
+
 [[targets]]
 id = "402670b3-b50d-4c89-9aa8-3598690e8991"
 name = "okular"
-paths = [
-    { relative_path = ".config/okularrc", type = "file" },
-]
 created_at = "2026-08-29T15:02:24.921201+00:00"
 updated_at = "2026-08-30T14:32:39.863026+00:00"
 dependencies = [
     { package = "okular", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/okularrc"
+type = "file"
+id = "3f0200a7-53ba-4f7f-9648-31e34540f706"
+
 [[targets]]
 id = "dfb8f011-205f-4411-8da8-3104d9025707"
 name = "paru"
-paths = [
-    { relative_path = ".config/paru", type = "directory" },
-]
 created_at = "2026-08-26T21:36:06.554645+00:00"
 updated_at = "2026-08-28T17:44:30.627169+00:00"
 dependencies = [
@@ -288,80 +344,99 @@ dependencies = [
     { package = "base-devel", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/paru"
+type = "directory"
+id = "94868895-daaa-479e-b031-25f1dead7efc"
+
 [[targets]]
 id = "2992c6c9-566f-4c3e-8679-876be0555801"
 name = "plama-aurorae"
-paths = [
-    { relative_path = ".local/share/aurorae", type = "directory" },
-]
 created_at = "2026-08-29T15:51:02.247067+00:00"
 updated_at = "2026-08-29T15:51:02.247067+00:00"
+
+[[targets.paths]]
+relative_path = ".local/share/aurorae"
+type = "directory"
+id = "f32a7093-3302-4430-9a65-7e756c1d7698"
 
 [[targets]]
 id = "8f765864-07e5-47ef-8c45-2076d1de6a6b"
 name = "plasma-color-schemes"
-paths = [
-    { relative_path = ".local/share/color-schemes", type = "directory" },
-]
 created_at = "2026-08-29T15:51:35.207371+00:00"
 updated_at = "2026-08-29T15:51:35.207371+00:00"
+
+[[targets.paths]]
+relative_path = ".local/share/color-schemes"
+type = "directory"
+id = "8d485f33-44d8-4c17-a00c-1ce161730371"
 
 [[targets]]
 id = "3c4791e7-b022-4b74-9091-cdff361ab780"
 name = "plasma-look-and-feel"
-paths = [
-    { relative_path = ".local/share/plasma/look-and-feel", type = "directory" },
-]
 created_at = "2026-08-29T15:47:50.863202+00:00"
 updated_at = "2026-08-29T15:47:50.863202+00:00"
+
+[[targets.paths]]
+relative_path = ".local/share/plasma/look-and-feel"
+type = "directory"
+id = "0e44d669-a451-46e6-af9e-351678f51cdf"
 
 [[targets]]
 id = "662218f4-2b7e-4e9e-88c7-2216276ace8d"
 name = "plasma-themes"
-paths = [
-    { relative_path = ".local/share/plasma/desktoptheme", type = "directory" },
-]
 created_at = "2026-08-29T15:47:17.269077+00:00"
 updated_at = "2026-08-29T15:47:17.269077+00:00"
+
+[[targets.paths]]
+relative_path = ".local/share/plasma/desktoptheme"
+type = "directory"
+id = "f556e74f-cdf0-4a49-bf87-e29b75ea7dfc"
 
 [[targets]]
 id = "c647ba7e-68f0-4e38-8b3c-01b275928b3c"
 name = "plasmoids"
-paths = [
-    { relative_path = ".local/share/plasma/plasmoids", type = "directory" },
-]
 created_at = "2026-08-29T15:48:26.591306+00:00"
 updated_at = "2026-08-29T15:48:26.591306+00:00"
+
+[[targets.paths]]
+relative_path = ".local/share/plasma/plasmoids"
+type = "directory"
+id = "f80f4cbb-fb24-43b9-90ed-f049dc47fe57"
 
 [[targets]]
 id = "4dcaa054-d7e5-4427-94f7-17577c9324b0"
 name = "procs"
-paths = [
-    { relative_path = ".config/procs", type = "directory" },
-]
 created_at = "2026-08-28T16:43:05.637086+00:00"
 updated_at = "2026-08-28T17:44:30.632172+00:00"
 dependencies = [
     { package = "procs", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/procs"
+type = "directory"
+id = "12be3421-a45c-4a73-a574-54e1154247f2"
+
 [[targets]]
 id = "33cebc4b-dbe5-4780-9b63-86e122b051a6"
 name = "ripgrep"
-paths = [
-    { relative_path = ".config/ripgrep", type = "directory" },
-]
 created_at = "2026-08-28T05:09:08.251907+00:00"
 updated_at = "2026-08-28T05:09:08.251907+00:00"
 dependencies = [
     { package = "ripgrep", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/ripgrep"
+type = "directory"
+id = "32043d6a-47e0-45f1-9c1c-22ee5dacb180"
+
 [[targets]]
 id = "d41e59e3-8fd2-4262-aad5-00f41eab5354"
 name = "ssh"
 paths = [
-    { relative_path = ".ssh/config", type = "file" },
+    { relative_path = ".ssh/config", type = "file", id = "4296314b-e5bc-4558-aacd-6e65d520bdd0" },
 ]
 created_at = "2026-08-27T00:48:04.560372+00:00"
 updated_at = "2026-08-27T00:48:04.560372+00:00"
@@ -372,31 +447,31 @@ dependencies = [
 [[targets]]
 id = "3945baef-d5d1-4b27-8bb9-b5e9c44ee3ee"
 name = "tealdeer"
-paths = [
-    { relative_path = ".config/tealdeer", type = "directory" },
-]
 created_at = "2026-08-28T16:17:03.441082+00:00"
 updated_at = "2026-08-28T16:17:03.441082+00:00"
 dependencies = [
     { package = "tealdeer", manager = "pacman", optional = false },
 ]
 
+[[targets.paths]]
+relative_path = ".config/tealdeer"
+type = "directory"
+id = "845b64ee-68a4-43c3-9401-f087e426cd26"
+
 [[targets]]
 id = "3f2e72ab-e1a2-4efd-8a65-3cae76ae7a69"
 name = "wallpapers"
-paths = [
-    { relative_path = ".local/share/wallpapers", type = "directory" },
-]
 created_at = "2026-08-30T03:44:36.167893+00:00"
 updated_at = "2026-08-30T03:44:36.167893+00:00"
+
+[[targets.paths]]
+relative_path = ".local/share/wallpapers"
+type = "directory"
+id = "a966ebd7-bf22-4492-801d-d0f03ac67b45"
 
 [[targets]]
 id = "14af3217-c553-42df-8e77-a9a63eac12c1"
 name = "zsh"
-paths = [
-    { relative_path = ".config/zsh", type = "directory" },
-    { relative_path = ".zshenv", type = "file" },
-]
 created_at = "2026-08-26T20:35:20.678517+00:00"
 updated_at = "2026-08-28T22:08:48.235355+00:00"
 dependencies = [
@@ -412,6 +487,16 @@ dependencies = [
     { package = "duf", manager = "pacman", optional = true },
     { package = "go-yq", manager = "pacman", optional = true },
 ]
+
+[[targets.paths]]
+relative_path = ".config/zsh"
+type = "directory"
+id = "04bcdd78-273f-4079-b36d-214aca36d70a"
+
+[[targets.paths]]
+relative_path = ".zshenv"
+type = "file"
+id = "37a2ed1c-9fa5-455c-9b63-4a8924ee4f7d"
 
 [[profiles]]
 id = "0a8e6c50-acbd-4586-8387-69506908cbc7"
@@ -487,6 +572,12 @@ targets = [
     { id = "c647ba7e-68f0-4e38-8b3c-01b275928b3c", name = "plasmoids" },
 ]
 excludes = []
+
+[secret_group]
+id = "3e215284-be3b-4ab4-914f-6a87cf0f9453"
+recipient = "age1pxffasxem49y5n7v2u9mn0jlu9pcpmr9s4awa7pqh40pkth3ggqqvnuk9z"
+master_wrapper = "YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IHNjcnlwdCBnUG5SV1I5L1BLTXJzcjloZ3U4RUVRIDE4CmxqSy9saTNtVDdmRitpWTl0UzAzZWVCTDFaUyt3SWhmb1VaajBJcUY3MlEKLS0tIDljUXJRRDRydEppRWFkNHk4cW9ScWpjTmlraFVUQjZrU1MwUWNyYlorcDQKA0tEpqCI2PHttJFZ92xop5Wv8Pm9wHtpDiWIgx2Dmf9kVi9S/hXuNENhBakN7MvNpxTuechxsWH4dmLst2dCUoKXV5cQ96507CC1aM9W64wh7Ny1JGnvhHlCAIHLSP++ijFyEqK9F7f01g=="
+recovery_wrapper = "YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IHNjcnlwdCB1VWFmSm9yUE1JRmdnejRjelVveFpRIDE4CnZ5dFdNYlZqUEJ2S2tONE9obFBzOTJVdUNZSVVETVMwcU1EcVgwTE9NNE0KLS0tIHptVkNENk5HMG9HZnROMzBpYUU0OXhOcmFySEhrTmFTa3EyM0t1NmY0d28KTpEKMOOvdrAST+3ZDyrBXjcWpRbB03hz+jVhb3lQaEx2ZIQcNu1FQQSwSTiYhAIA4hUCQM1K6TQtZecPbTAVrQbzoP0yTiYkCMKO++f2XXilGTTXVmZaJboUDEEytq1x7i9gxYVhWvUGLg=="
 
 [suggested_activation]
 complements = []
