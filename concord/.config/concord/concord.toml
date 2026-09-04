@@ -12,7 +12,7 @@ remote = "origin"
 id = "bb226a11-fc7f-42e3-a33b-d77356919a4b"
 name = "concord"
 created_at = "2026-08-26T16:26:42.485917+00:00"
-updated_at = "2026-09-04T16:33:51.768644+00:00"
+updated_at = "2026-09-04T16:44:52.578141+00:00"
 
 [[targets.paths]]
 relative_path = ".config/concord"
@@ -435,7 +435,7 @@ id = "32043d6a-47e0-45f1-9c1c-22ee5dacb180"
 id = "d41e59e3-8fd2-4262-aad5-00f41eab5354"
 name = "ssh"
 created_at = "2026-08-27T00:48:04.560372+00:00"
-updated_at = "2026-09-04T16:33:51.759572+00:00"
+updated_at = "2026-09-04T16:44:52.562149+00:00"
 dependencies = [
     { package = "openssh", manager = "pacman", optional = false },
 ]
@@ -449,6 +449,11 @@ id = "4296314b-e5bc-4558-aacd-6e65d520bdd0"
 relative_path = ".ssh/id_ed25519"
 type = "file"
 id = "ef3dd2a0-6c46-4024-900a-aa1dbe74e5dd"
+
+[[targets.paths]]
+relative_path = ".ssh/id_ed25519.pub"
+type = "file"
+id = "da9125b5-63de-4e99-8c99-c1d513ab7918"
 
 [[targets]]
 id = "3945baef-d5d1-4b27-8bb9-b5e9c44ee3ee"
