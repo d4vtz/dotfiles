@@ -3,6 +3,8 @@ export EDITOR='nvim'
 export VISUAL="$EDITOR"
 export PAGER='less'
 
+export LANG=es_MX.UTF-8
+
 # Bat
 if (( $+commands[bat] )); then
     export MANPAGER='bat --plain --language=man'
